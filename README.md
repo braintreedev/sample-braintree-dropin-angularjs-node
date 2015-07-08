@@ -1,4 +1,4 @@
-# xx-braintree-dropin-angularjs-node
+# braintree-dropin-angularjs-node
 Braintree Dropin built with Node on the backend and AngularJS on the frontend.
 
 ## 1) NODE SERVER: Installation and usage
