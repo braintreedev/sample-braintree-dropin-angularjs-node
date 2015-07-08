@@ -1,0 +1,31 @@
+{
+  "name": "xx-braintree-dropin-angularjs-node",
+  "version": "0.1.0",
+  "description": "Server built with Node to serve an AngularJS app.",
+  "main": "app.js",
+  "scripts": {
+    "postinstall": "cd ../angular-app && bower install",
+    "start": "node app.js",
+    "test": "mocha -w app.js test/appSpec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/commercefactory/xx-braintree-dropin-angularjs-node.git"
+  },
+  "author": "Demian Borba (dborba@paypal.com)",
+  "license": "Apache",
+  "bugs": {
+    "url": "https://github.com/commercefactory/xx-braintree-dropin-angularjs-node/issues"
+  },
+  "homepage": "https://github.com/commercefactory/xx-braintree-dropin-angularjs-node",
+  "dependencies": {
+    "body-parser": "^1.12.0",
+    "braintree": "^1.23.0",
+    "express": "^4.12.0",
+    "util": "^0.10.3"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "supertest": "^0.15.0"
+  }
+}
