@@ -1,3 +1,5 @@
+<h2>This repo is on a path to being archived, checkout our other resources in github.com/paypal</h2>
+
 # braintree-dropin-angularjs-node
 Braintree Dropin built with Node on the backend and AngularJS on the frontend.
 
